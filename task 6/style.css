@@ -1,0 +1,58 @@
+body{
+   
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    text-align: center;
+     font-family: "League Spartan", sans-serif;
+}
+.text{
+    margin-top: 20px;
+    color: rgb(1, 7, 52);
+      font-size: x-large;
+}
+.text h3{
+    font-weight: 1000;
+}
+.text i{
+ color: #30dcec;
+}
+
+
+.cards{
+    margin-top: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 21%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7%;
+    box-shadow: 5px 5px 5px 5px rgb(190, 190, 190);
+    text-align: left; 
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.card p{
+    color: #646464;
+}
+.card span{
+    color: #30dcec;
+    margin: 5px;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 7% ;
+      border-top-right-radius: 7% ;
+}
+button{
+    margin: 40px;
+    background-color: #30dcec;
+    width: 110px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
